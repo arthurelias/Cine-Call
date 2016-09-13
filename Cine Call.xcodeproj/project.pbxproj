@@ -1,0 +1,509 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FACB89261D8870E800B8487F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACB89251D8870E800B8487F /* AppDelegate.swift */; };
+		FACB89281D8870E800B8487F /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACB89271D8870E800B8487F /* FirstViewController.swift */; };
+		FACB892A1D8870E800B8487F /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACB89291D8870E800B8487F /* SecondViewController.swift */; };
+		FACB892D1D8870E800B8487F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FACB892B1D8870E800B8487F /* Main.storyboard */; };
+		FACB892F1D8870E800B8487F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FACB892E1D8870E800B8487F /* Assets.xcassets */; };
+		FACB89321D8870E800B8487F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FACB89301D8870E800B8487F /* LaunchScreen.storyboard */; };
+		FACB893D1D8870E800B8487F /* Cine_CallTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACB893C1D8870E800B8487F /* Cine_CallTests.swift */; };
+		FACB89481D8870E800B8487F /* Cine_CallUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACB89471D8870E800B8487F /* Cine_CallUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FACB89391D8870E800B8487F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FACB891A1D8870E800B8487F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FACB89211D8870E800B8487F;
+			remoteInfo = "Cine Call";
+		};
+		FACB89441D8870E800B8487F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FACB891A1D8870E800B8487F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FACB89211D8870E800B8487F;
+			remoteInfo = "Cine Call";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FACB89221D8870E800B8487F /* Cine Call.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cine Call.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FACB89251D8870E800B8487F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FACB89271D8870E800B8487F /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		FACB89291D8870E800B8487F /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		FACB892C1D8870E800B8487F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FACB892E1D8870E800B8487F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FACB89311D8870E800B8487F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FACB89331D8870E800B8487F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FACB89381D8870E800B8487F /* Cine CallTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cine CallTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FACB893C1D8870E800B8487F /* Cine_CallTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cine_CallTests.swift; sourceTree = "<group>"; };
+		FACB893E1D8870E800B8487F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FACB89431D8870E800B8487F /* Cine CallUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cine CallUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FACB89471D8870E800B8487F /* Cine_CallUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cine_CallUITests.swift; sourceTree = "<group>"; };
+		FACB89491D8870E800B8487F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FACB891F1D8870E800B8487F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FACB89351D8870E800B8487F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FACB89401D8870E800B8487F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FACB89191D8870E800B8487F = {
+			isa = PBXGroup;
+			children = (
+				FACB89241D8870E800B8487F /* Cine Call */,
+				FACB893B1D8870E800B8487F /* Cine CallTests */,
+				FACB89461D8870E800B8487F /* Cine CallUITests */,
+				FACB89231D8870E800B8487F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FACB89231D8870E800B8487F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FACB89221D8870E800B8487F /* Cine Call.app */,
+				FACB89381D8870E800B8487F /* Cine CallTests.xctest */,
+				FACB89431D8870E800B8487F /* Cine CallUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FACB89241D8870E800B8487F /* Cine Call */ = {
+			isa = PBXGroup;
+			children = (
+				FACB89251D8870E800B8487F /* AppDelegate.swift */,
+				FACB89271D8870E800B8487F /* FirstViewController.swift */,
+				FACB89291D8870E800B8487F /* SecondViewController.swift */,
+				FACB892B1D8870E800B8487F /* Main.storyboard */,
+				FACB892E1D8870E800B8487F /* Assets.xcassets */,
+				FACB89301D8870E800B8487F /* LaunchScreen.storyboard */,
+				FACB89331D8870E800B8487F /* Info.plist */,
+			);
+			path = "Cine Call";
+			sourceTree = "<group>";
+		};
+		FACB893B1D8870E800B8487F /* Cine CallTests */ = {
+			isa = PBXGroup;
+			children = (
+				FACB893C1D8870E800B8487F /* Cine_CallTests.swift */,
+				FACB893E1D8870E800B8487F /* Info.plist */,
+			);
+			path = "Cine CallTests";
+			sourceTree = "<group>";
+		};
+		FACB89461D8870E800B8487F /* Cine CallUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FACB89471D8870E800B8487F /* Cine_CallUITests.swift */,
+				FACB89491D8870E800B8487F /* Info.plist */,
+			);
+			path = "Cine CallUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FACB89211D8870E800B8487F /* Cine Call */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FACB894C1D8870E900B8487F /* Build configuration list for PBXNativeTarget "Cine Call" */;
+			buildPhases = (
+				FACB891E1D8870E800B8487F /* Sources */,
+				FACB891F1D8870E800B8487F /* Frameworks */,
+				FACB89201D8870E800B8487F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Cine Call";
+			productName = "Cine Call";
+			productReference = FACB89221D8870E800B8487F /* Cine Call.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FACB89371D8870E800B8487F /* Cine CallTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FACB894F1D8870E900B8487F /* Build configuration list for PBXNativeTarget "Cine CallTests" */;
+			buildPhases = (
+				FACB89341D8870E800B8487F /* Sources */,
+				FACB89351D8870E800B8487F /* Frameworks */,
+				FACB89361D8870E800B8487F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FACB893A1D8870E800B8487F /* PBXTargetDependency */,
+			);
+			name = "Cine CallTests";
+			productName = "Cine CallTests";
+			productReference = FACB89381D8870E800B8487F /* Cine CallTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FACB89421D8870E800B8487F /* Cine CallUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FACB89521D8870E900B8487F /* Build configuration list for PBXNativeTarget "Cine CallUITests" */;
+			buildPhases = (
+				FACB893F1D8870E800B8487F /* Sources */,
+				FACB89401D8870E800B8487F /* Frameworks */,
+				FACB89411D8870E800B8487F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FACB89451D8870E800B8487F /* PBXTargetDependency */,
+			);
+			name = "Cine CallUITests";
+			productName = "Cine CallUITests";
+			productReference = FACB89431D8870E800B8487F /* Cine CallUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FACB891A1D8870E800B8487F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = MacBook;
+				TargetAttributes = {
+					FACB89211D8870E800B8487F = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					FACB89371D8870E800B8487F = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = FACB89211D8870E800B8487F;
+					};
+					FACB89421D8870E800B8487F = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = FACB89211D8870E800B8487F;
+					};
+				};
+			};
+			buildConfigurationList = FACB891D1D8870E800B8487F /* Build configuration list for PBXProject "Cine Call" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FACB89191D8870E800B8487F;
+			productRefGroup = FACB89231D8870E800B8487F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FACB89211D8870E800B8487F /* Cine Call */,
+				FACB89371D8870E800B8487F /* Cine CallTests */,
+				FACB89421D8870E800B8487F /* Cine CallUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FACB89201D8870E800B8487F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FACB89321D8870E800B8487F /* LaunchScreen.storyboard in Resources */,
+				FACB892F1D8870E800B8487F /* Assets.xcassets in Resources */,
+				FACB892D1D8870E800B8487F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FACB89361D8870E800B8487F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FACB89411D8870E800B8487F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FACB891E1D8870E800B8487F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FACB892A1D8870E800B8487F /* SecondViewController.swift in Sources */,
+				FACB89261D8870E800B8487F /* AppDelegate.swift in Sources */,
+				FACB89281D8870E800B8487F /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FACB89341D8870E800B8487F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FACB893D1D8870E800B8487F /* Cine_CallTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FACB893F1D8870E800B8487F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FACB89481D8870E800B8487F /* Cine_CallUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FACB893A1D8870E800B8487F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FACB89211D8870E800B8487F /* Cine Call */;
+			targetProxy = FACB89391D8870E800B8487F /* PBXContainerItemProxy */;
+		};
+		FACB89451D8870E800B8487F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FACB89211D8870E800B8487F /* Cine Call */;
+			targetProxy = FACB89441D8870E800B8487F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FACB892B1D8870E800B8487F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FACB892C1D8870E800B8487F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FACB89301D8870E800B8487F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FACB89311D8870E800B8487F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FACB894A1D8870E900B8487F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FACB894B1D8870E900B8487F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FACB894D1D8870E900B8487F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Cine Call/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.arthurelias.Cine-Call";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FACB894E1D8870E900B8487F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Cine Call/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.arthurelias.Cine-Call";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FACB89501D8870E900B8487F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Cine CallTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.arthurelias.Cine-CallTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cine Call.app/Cine Call";
+			};
+			name = Debug;
+		};
+		FACB89511D8870E900B8487F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Cine CallTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.arthurelias.Cine-CallTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cine Call.app/Cine Call";
+			};
+			name = Release;
+		};
+		FACB89531D8870E900B8487F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Cine CallUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.arthurelias.Cine-CallUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Cine Call";
+			};
+			name = Debug;
+		};
+		FACB89541D8870E900B8487F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Cine CallUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.arthurelias.Cine-CallUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Cine Call";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FACB891D1D8870E800B8487F /* Build configuration list for PBXProject "Cine Call" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FACB894A1D8870E900B8487F /* Debug */,
+				FACB894B1D8870E900B8487F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FACB894C1D8870E900B8487F /* Build configuration list for PBXNativeTarget "Cine Call" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FACB894D1D8870E900B8487F /* Debug */,
+				FACB894E1D8870E900B8487F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FACB894F1D8870E900B8487F /* Build configuration list for PBXNativeTarget "Cine CallTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FACB89501D8870E900B8487F /* Debug */,
+				FACB89511D8870E900B8487F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FACB89521D8870E900B8487F /* Build configuration list for PBXNativeTarget "Cine CallUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FACB89531D8870E900B8487F /* Debug */,
+				FACB89541D8870E900B8487F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FACB891A1D8870E800B8487F /* Project object */;
+}
